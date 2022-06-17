@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Menu hamburger in HTML-CSS</title>
+        <link rel="icon" type="image/jpg" href="assets/img/naviganet_new_favicon.jpg">
+		<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="logo">
+                <img src="assets/img/logo_tondo.png" alt="Logo Naviganet">
+            </div>
+            <div id="titolo">
+                <h1>Un menu Hamburger realizzato in puro HTML5 e CSS3 con il tag <code>&lt;details&gt;</code></h1>
+            </div>
+        </header>
+		
+		<div id="menu">
+			<details>
+				<summary><i class="lni lni-menu" id="chiuso"></i><i class="lni lni-close" id="aperto"></i></summary>
+				<nav>
+					<ul>
+						<li><a href="#">LINK 1</a></li>
+						<li><a href="#">LINK 2</a></li>
+						<li><a href="#">LINK 3</a></li>
+						<li><a href="#">LINK 4</a></li>
+					</ul>
+				</nav>
+			</details>
+		</div>
+		<div id="main">Questo è il div sottostante</div>
+	</body>
+</html>
